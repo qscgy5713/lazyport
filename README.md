@@ -11,7 +11,8 @@
 需要 Rust(`cargo`)。
 
 ```bash
-cd ~/www/lazyport
+git clone https://github.com/qscgy5713/lazyport.git   # 已設定 SSH 金鑰可改用 git@github.com:qscgy5713/lazyport.git
+cd lazyport
 cargo build --release
 # 選用:放進 PATH
 cp target/release/lazyport /usr/local/bin/

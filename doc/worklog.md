@@ -1,5 +1,9 @@
 # 工作日誌
 
+## 2026-10-28(發佈到 GitHub)
+- 建立公開 repo https://github.com/qscgy5713/lazyport,remote 用 SSH;`target/`、`node_modules/` 等產物不上傳
+- README 安裝步驟改成 `git clone`(用 HTTPS 網址,未設定 SSH 金鑰的人也能下載)
+
 ## 2026-10-28(自訂說明 + 修正「打開後什麼都沒有」)
 - 使用者回報「打開之後沒有任何東西」,實際有兩個原因:
   1. 視窗被擋在其他視窗後面:選單列程式沒有 Dock 圖示,啟動時沒有前置 → 啟動時 `show_window`,並處理 `RunEvent::Reopen`
